@@ -45,7 +45,7 @@ function compareUserInput(){
 }
 setUpFlags()
 
-let time = 20;
+let time = 60;
 var timer = setInterval(function () {
     time--;
     document.getElementById("timecount").innerHTML = `<h4> time: ${time}</h4>`;
