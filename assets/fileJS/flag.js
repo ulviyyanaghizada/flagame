@@ -40,7 +40,7 @@ function compareUserInput(){
     }
     else {
         getRandomCountry()
-        correct.innerHTML = `<button<h4>correct answer:</h4> ${answer}</button>`
+        correct.innerHTML = `<button<h5>correct answer:</h5> ${answer}</button>`
     }
 }
 setUpFlags()
@@ -51,7 +51,7 @@ var timer = setInterval(function () {
     document.getElementById("timecount").innerHTML = `<h4> time: ${time}</h4>`;
     if (time <= 0){
     document.getElementById("timecount").innerHTML = `<h4> time is up!</h4>`;
-    // document.querySelector(".image")
+    
     document.querySelector(".form").innerHTML= `<h3>game is over!</h3>`
 }
 }, 1000);
